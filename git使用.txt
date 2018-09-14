@@ -23,3 +23,9 @@ https://blog.csdn.net/lemon_cookie/article/details/79058151
 
 # git push 从远程服务器下载到本地
 
+# git add 添加的文件(或者./当前目录的舍友文件)
+
+# git commit (提交)
+
+# git push origin master(上传到服务器)
+
