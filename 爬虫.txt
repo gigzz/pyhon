@@ -1,0 +1,25 @@
+# 请求
+	Connextuon: keep-alive表示长连接
+	Cache-Control: 
+	user-agent: 浏览器的信息
+	accept: 可以接收的文件内容
+	accept-encoding: 是否支持编解码
+	referer: 表示是从哪个页面来的这个界面的
+	
+# 方法
+	scrapy shell进入scrapy 调试
+	scrapy 保存log LOG_FILE = '名字' LOG_LEVL = '说明类型的数据  INFO'
+	crawlSpider 要在setting中设置user-agent ，为了反爬虫
+	
+# 解决
+	爬取网站时尽量使用ie8
+	在使用ImagesPipeline是setting里面需要加上IMAGES_STORE
+	scrapy_redis: 使用的是zset来保存请求和请求连接的
+	scrapy runspider spider/myspider_redis.py 的使用有位置的要求
+
+	
+	
+	
+
+
+	

@@ -1,0 +1,32 @@
+# 进制  
+      	正数原码的反码 补码相同
+	负数的反码=符号不变其他取反，补码 = 反码加1
+		负数补码变回原码和转换为补码一样
+
+
+
+# Java 后端和前端
+	EL表达式要在jsp页面添加一串<%@page isELIgnored="false" %>
+
+	Jquery的ajxa的方法中datatype的值有以下这些：xml,json,text,script,html,jsonp.
+
+	在使用spring_mvc中如果资源文件properties报错的话在loction后面加上classpath:
+
+	spring的组键扫描：
+		@Controller
+
+	Mybatis
+		当需要返回List的时候，使用泛型的量来代替来代替，mybatis会自动转转化为list -->
+		
+# 计算机网络
+	Mac地址的作用: 就是在当你需要发送消息去一个ip地址的时候,在发送过程中ip的是不会发生变化的需要通过路由器来寻找
+				   下一个去的位置，这个时候就需要用到Mac物理地址，在同一个局域网中ip和Mac确实可以确定一台电脑，但是当要在不同的
+				   网络之间传输数据的时候就需要用到Mac地址。
+	ip: 只是确定一个逻辑地址，也就是最终的地址。
+	Mac: 是实际转发数据设备的地址
+	netmask(子网掩码)：与ip地址相与得到网络号。
+	nslookup www.baidu.com: 查看域名的ip地址
+	
+# pyton
+	编码 encode（）
+	解码 decode（）
