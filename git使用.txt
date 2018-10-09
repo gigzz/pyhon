@@ -35,5 +35,5 @@ https://blog.csdn.net/lemon_cookie/article/details/79058151
 
 	# git checkout 指定哪个文件 (从暂存区中返回之前记录)
 
-	#  
+	#  多人使用时需要先代码下载下来再上传上去git pull origin master(拉下来), 再上传git push -u origin master(再上传上去)
 
