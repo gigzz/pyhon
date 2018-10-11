@@ -1,0 +1,6 @@
+调用c语言钱需要将c文件编译 gcc xxx.c -shared -o xxxx.so
+在python里面导入from ctypes import *
+使用lib =  cdll.LoadLibrary('./xxx.so')
+Thread(lib.方法)
+ok
+
