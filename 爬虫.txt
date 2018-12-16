@@ -16,6 +16,8 @@
 	在使用ImagesPipeline是setting里面需要加上IMAGES_STORE
 	scrapy_redis: 使用的是zset来保存请求和请求连接的
 	scrapy runspider spider/myspider_redis.py 的使用有位置的要求
+	爬虫文件需要一个配置文件否者无法设置user-agent
+	在使用LinkExtractor中的xpath来选择时要选择一个元素而不是直接给链接
 
 	
 	

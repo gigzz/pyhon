@@ -36,7 +36,10 @@
 # ES6语法：
 	- ``: 为字符串模板，里面需要加参数是使用${}，例如`<li>${value}</li>`
 	- 对数组的操作(主要写map,filter): filter: 表示从数组中过滤满足条件的子项组成数组，当返回为true是为新数组添加该项。
-									```
+    
+     
+     
+				```
 										 例子：let arr = [1,2,3,4,5];
 										 let arr2 = arr.filter(function (item) {
 											return item>2&&item<5;
@@ -45,4 +48,4 @@
 										例子: let arr3 = arr.map(value => {
 												return `<li>${value}</li>`
 											});
-									```
+				```

@@ -40,7 +40,8 @@
 	- 忽略上传可以在.git/info/exclude里添加忽略的文件名
 	
 	- 添加本地已有的项目
-	 ```$xslt
+	 ```$xslt	
+				git init
 	            git add ./
      			git commit -m "update"
      			git remote add origin github地址
